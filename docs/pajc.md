@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: PAJC
-next_section: EPS
 permalink: /docs/pajc/
 ---
 
