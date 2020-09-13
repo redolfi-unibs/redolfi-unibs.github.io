@@ -8,6 +8,8 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
+news: prima live il 16/9!
+
 author :
   name : Massimiliano Redolfi
   email : massimiliano.redolfi@unibs.it
