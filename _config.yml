@@ -1,4 +1,18 @@
+highlighter: rouge
+relative_permalinks: false
+url: http://unibs.ai4res.com
+title: redolfi@unibs
+description: PAJC & EPS Official Site
+google_analytics_id: 00-0000-000
+exclude: ["CNAME", "README", "bin", "build.xml"]
+permalink: /news/:year/:month/:day/:title
+
+author :
+  name : Massimiliano Redolfi
+  email : massimiliano.redolfi@unibs.it
+  github : redolfi-unibs
+
+project:
+  name: REDOLFI-UNIBS
+  github: redolfi-unibs
 theme: jekyll-theme-architect
-title: Redolfi@unibs
-description: Sito ufficiale del corso di Programmazione Avanzata Java e C
-show_downloads: false
