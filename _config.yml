@@ -2,7 +2,7 @@ highlighter: rouge
 relative_permalinks: false
 url: https://redolfi-unibs.github.io/
 title: redolfi@unibs
-slogan: PAJC & EPS Official Site
+slogan: PAJC & EPS Official Site!
 description: PAJC & EPS Official Site
 google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
