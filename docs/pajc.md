@@ -16,7 +16,12 @@ Il materiale (video delle lezioni/lab, dispense, esercizi etc...) sarà accessib
 
 <div class="note warning">
   <h5>Video delle lezioni</h5>
-  <p>Tutti i video delle lezioni e dei lab sono on-line sul canale youtube: <a href="https://www.youtube.com/playlist?list=PLv6L7aZ2kXMKzbh91M8tBZ0PgZeFwhzbJ">Redolfi PAJC 2020/2021</a></p>
+  <p>Tutti i video delle lezioni e dei lab sono on-line sul canale youtube: <a href="https://www.youtube.com/playlist?list=PLv6L7aZ2kXMKzbh91M8tBZ0PgZeFwhzbJ">Redolfi PAJC 2020/2021 Video</a></p>
+</div>
+
+<div class="note info">
+  <h5>Slide e materiale</h5>
+  <p>Potete scaricare le slide del corso, i progetti Java e C ed altro materiale a supporto da questo link: <a href="https://www.dropbox.com/sh/tl0xb00qkr4sdm4/AABztZk5kGQfZTToxE86N8esa?dl=0">Redolfi PAJC 2020/2021 Materiale</a></p>
 </div>
 
 
