@@ -14,6 +14,13 @@ Il materiale (video delle lezioni/lab, dispense, esercizi etc...) sarà accessib
 [calendario-didattico]: https://calendari.unibs.it/PortaleStudenti/
 
 
+<div class="note warning">
+  <h5>Video delle lezioni</h5>
+  <p>Tutti i video delle lezioni e dei lab sono on-line sul canale youtube: <a href="https://www.youtube.com/playlist?list=PLv6L7aZ2kXMKzbh91M8tBZ0PgZeFwhzbJ">Redolfi PAJC 2020/2021</a></p>
+</div>
+
+
+
 Quindi... i prossimi passi?
 --------------------------
 
