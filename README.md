@@ -1,7 +1,4 @@
-# PAJC - coming soon...
+#Sito web dei corsi di PAJC & EPS.
 
-LEZ 01 | 16/9 | https://youtu.be/3NFWp2CYOmA
-
-
-LAB 01 - A| 17/9 | https://youtu.be/gLbqRNu_Mv0
-
+Per accedere al sito procede al seguente link:
+https://redolfi-unibs.github.io
