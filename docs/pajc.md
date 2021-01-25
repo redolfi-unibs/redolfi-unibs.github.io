@@ -16,9 +16,11 @@ Il materiale (video delle lezioni/lab, dispense, esercizi etc...) sarà accessib
 
 <div class="note warning">
   <h5>Modalità d'esame</h5>
-  <p>L'esame per ora è on-line, ci sono due modalità: scritto+orale e progetto+orale</p>
+  <p>L'esame per ora è on-line, ci sono due modalità: <b>scritto+orale</b> e <b>progetto+orale</b></p>
+  <br>
   <p><b>sritto+orale</b></p>
   <p>L'esame consisnte in una prova pratica, un esercizio Java da completare sul proprio PC entro un certo limite di tempo al termine della quale segue una esame orale sugli argomenti affrontati durante il corso.</p>
+  <br>
   <p><b>progetto+orale</b></p>
   <p>L'esame consisnte nella presentazione da parte dello studente di un progetto precedentemente concordato ed approvato dal prof. Redolfi, al termine della quale segue una esame orale sugli argomenti affrontati durante il corso.</p>
     <p>Il progetto consiste nello sviluppo di un'applicazione. Lo studente è libero di scegliere l'argomento del progetto (gioco, applicazione gestionale, altro), l'applicazione deve però soddisfare alcuni requisiti tecnici:</p>
