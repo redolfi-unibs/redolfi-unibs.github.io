@@ -15,6 +15,23 @@ Il materiale (video delle lezioni/lab, dispense, esercizi etc...) sarà accessib
 
 
 <div class="note warning">
+  <h5>Modalità d'esame</h5>
+  <p>L'esame per ora è on-line, ci sono due modalità: scritto+orale e progetto+orale</p>
+  <p><b>sritto+orale</b></p>
+  <p>L'esame consisnte in una prova pratica, un esercizio Java da completare sul proprio PC entro un certo limite di tempo al termine della quale segue una esame orale sugli argomenti affrontati durante il corso.</p>
+  <p><b>progetto+orale</b></p>
+  <p>L'esame consisnte nella presentazione da parte dello studente di un progetto precedentemente concordato ed approvato dal prof. Redolfi, al termine della quale segue una esame orale sugli argomenti affrontati durante il corso.</p>
+    <p>Il progetto consiste nello sviluppo di un'applicazione. Lo studente è libero di scegliere l'argomento del progetto (gioco, applicazione gestionale, altro), l'applicazione deve però soddisfare alcuni requisiti tecnici:</p>
+    <ul>
+      <li>essere sviluppata in Java</li>
+      <li>comporsi di una parte server applicativa ed una parte client</li>
+      <li>la parte client deve avere un'interfaccia grafica</li>
+      <li>le componenti client e/o server dell'applicazione devono utilizzare i thread per il loro funzionamento</li>
+  </ul>
+</div>
+
+
+<div class="note info">
   <h5>Video delle lezioni</h5>
   <p>Tutti i video delle lezioni e dei lab sono on-line sul canale youtube: <a href="https://www.youtube.com/playlist?list=PLv6L7aZ2kXMKzbh91M8tBZ0PgZeFwhzbJ">Redolfi PAJC 2020/2021 Video</a></p>
 </div>
@@ -26,9 +43,9 @@ Il materiale (video delle lezioni/lab, dispense, esercizi etc...) sarà accessib
 
 
 
-Quindi... i prossimi passi?
+History...
 --------------------------
 
-Il sito è in costruzione e durante il semestre si arrichirrà di materiale, video etc... per chi è interessato al materiale degli scorsi anni può trovarlo [qui][pajc-old-site].
+Per chi fosse interessato al materiale degli scorsi anni (slide, temi d'esame, etc...) trova tutto [qui][pajc-old-site].
 
 [pajc-old-site]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
