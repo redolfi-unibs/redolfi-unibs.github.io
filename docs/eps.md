@@ -4,8 +4,9 @@ title: EPS
 permalink: /docs/eps/
 ---
 
-Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Elementi di Progettazione software.
+Qui troverete tutte le informazioni ed il materiale relativo al mio corso di Elementi di Progettazione software per l'anno 2020/2021, ricordo che il corso si svolgerà on-line tramite Microsoft Teams i video delle lezioni e le slide verrano pubblicate anche on-line.
 
+---
 Per quanto concerne l'anno accademico 2019/2020 il corso è stato svolto parzialmente on-line e parzialmete in presenza... quindi non troverete on-line tutti i video del corso ma solo la parte finale dello stesso...
 
 
