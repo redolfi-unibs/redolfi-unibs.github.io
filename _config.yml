@@ -8,7 +8,7 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: Il prossimo appello sarà il 10 febbraio...
+news: Le lezioni del corso di EPS saranno on-line su MS Teams, iniziamo mercoledì 24 febbraio...
 
 author :
   name : Massimiliano Redolfi
