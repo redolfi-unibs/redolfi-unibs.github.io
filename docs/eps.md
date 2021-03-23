@@ -11,6 +11,11 @@ Qui troverete tutte le informazioni ed il materiale relativo al mio corso di Ele
   <p>Potete scaricare le slide del corso, i progetti Java e C ed altro materiale a supporto da questo link: <a href="https://www.dropbox.com/sh/ev459et8k66o01b/AADC6sHA1jF6mOvPsL_e6Rifa?dl=0">Redolfi EPS Materiale</a></p>
 </div>
 
+<div class="note info">
+  <h5>Video delle lezioni/lab 2020/2021</h5>
+  <p>Pubblichiamo i video delle lezioni e dei lab sul nostro canale YouTube, dopo un minimo di editing, quindi in ritardo di circa 10 giorni rispetto alla diretta! <a href="https://www.youtube.com/playlist?list=PLv6L7aZ2kXMKzdV_ax74vOYA3miSzmhqc">Redolfi EPS Video</a></p>
+</div>
+
 ---
 Per quanto concerne l'anno accademico 2019/2020 il corso è stato svolto parzialmente on-line e parzialmete in presenza... quindi non troverete on-line tutti i video del corso ma solo la parte finale dello stesso...
 
