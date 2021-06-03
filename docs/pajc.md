@@ -13,7 +13,7 @@ Il materiale (video delle lezioni/lab, dispense, esercizi etc...) sarà accessib
 
 [calendario-didattico]: https://calendari.unibs.it/PortaleStudenti/
 
-
+<!--
 <div class="note warning">
   <h5>Modalità d'esame</h5>
   <p>L'esame per ora è on-line, ci sono due modalità: <b>scritto+orale</b> e <b>progetto+orale</b></p>
@@ -31,7 +31,7 @@ Il materiale (video delle lezioni/lab, dispense, esercizi etc...) sarà accessib
       <li>le componenti client e/o server dell'applicazione devono utilizzare i thread per il loro funzionamento</li>
   </ul>
 </div>
-
+-->
 
 <div class="note info">
   <h5>Video delle lezioni</h5>
