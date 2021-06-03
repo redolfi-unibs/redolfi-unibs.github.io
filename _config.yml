@@ -8,7 +8,7 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: Le lezioni del corso di EPS saranno in diretta su MS Teams, iniziamo mercoledì 24 febbraio!
+news: I prossimi appelli saranno in presenza, si torna alla normalità!
 
 author :
   name : Massimiliano Redolfi
