@@ -8,7 +8,7 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: I prossimi appelli saranno in presenza, si torna alla normalità!
+news: Gli esiti dell'appello del 16 giugno saranno pubblicati su questo sito il 23 giugno.
 
 author :
   name : Massimiliano Redolfi
