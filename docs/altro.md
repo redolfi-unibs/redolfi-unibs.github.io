@@ -9,4 +9,4 @@ permalink: /docs/altro/
 
 
 # Esiti esami EPS
-[appello 16 giugno 2021]({{ site.url }}/assets/esiti_pajc/EPS-esiti-2021-06-16.pdf)
+[appello 16 giugno 2021]({{ site.url }}/assets/esiti_eps/EPS-esiti-2021-06-16.pdf)
