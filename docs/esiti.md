@@ -6,7 +6,7 @@ permalink: /docs/esiti/
 
 ## PAJC
 
-{% include file_list.md content_tag="esito_pajc" %}
+{% include file_list.md content_tag="PAJC" %}
 
 ## EPS
-{% include file_list.md content_tag="esito_eps" %}
+{% include file_list.md content_tag="EPS" %}
