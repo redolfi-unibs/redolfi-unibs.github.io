@@ -15,9 +15,9 @@ layout: null
       <item>
         <title>Pubblicazione esiti {{ post.pdf_url | split: "/" | last | split: "-" | first }}</title>
         {% capture html_pdf_link %}
-        <a href="{{ post.pdf_url | prepend: site.baseurl | prepend: site.url }}">Link</a>
+        <a href="{{ post.pdf_url | prepend: site.baseurl | prepend: site.url }}">questo link</a>
         {% endcapture %}
-        <description>Potete visualizzarli a {{ html_pdf_link | xml_escape }} </description>
+        <description>Puoi visualizzarli a {{ html_pdf_link | xml_escape }} </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ site.baseurl }}{% link docs/esiti.md %}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
