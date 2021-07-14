@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Altro
+title: Esiti appelli
 permalink: /docs/altro/
 ---
 
