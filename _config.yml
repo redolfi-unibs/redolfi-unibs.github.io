@@ -8,7 +8,7 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: Buone vacanze!
+news: Il corso ricomincia! in presenza! Ci vediamo da mercoledì 15 in M1.
 
 author :
   name : Massimiliano Redolfi
