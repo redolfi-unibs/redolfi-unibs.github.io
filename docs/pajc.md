@@ -6,12 +6,12 @@ permalink: /docs/pajc/
 
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
 
-Per quanto concerne l'anno accademico 2020/2021 il corso è completamente on-line... trovate il link all'aula teams nel calendario didattico (lo trovate [qui][calendario-didattico]).
+Per quanto concerne l'anno accademico 2021/2022 il corso è finalmente tornato in presenza! Potete accedere al materiale (dispense/progetti) da qui [qui][materiale]).
 
-Il materiale (video delle lezioni/lab, dispense, esercizi etc...) sarà accessibile anche in modo asincrono, in questo modo sarà possibile accedere alle lezioni ed ai lab anche a chi è impossibilitato a connettersi durante la live. Tuttavia consiglio a chi può di collegarsi alle live in modo da poter interagire, porre domande e proporre idee! Rendiamo le lezioni on-line vive!
+Se vi perdete una lezione o volete ripassare un argomento vi ricordo che il materiale dello scorso anno è ancora disponibile on-line, compresi tutti i video (come sempre il corso si evolve nel tempo ma gli argomenti dello scorso anno sono analoghi a quelli attuali quindi potete sfruttare i video oltre alle dispense).
 
 
-[calendario-didattico]: https://calendari.unibs.it/PortaleStudenti/
+[materiale]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
 
 <!--
 <div class="note warning">
@@ -35,19 +35,20 @@ Il materiale (video delle lezioni/lab, dispense, esercizi etc...) sarà accessib
 
 <div class="note info">
   <h5>Video delle lezioni</h5>
-  <p>Tutti i video delle lezioni e dei lab sono on-line sul canale youtube: <a href="https://www.youtube.com/playlist?list=PLv6L7aZ2kXMKzbh91M8tBZ0PgZeFwhzbJ">Redolfi PAJC 2020/2021 Video</a></p>
+  <p>Tutti i video delle lezioni e dei lab per l'anno 2020/2021 sono on-line sul canale youtube: <a href="https://www.youtube.com/playlist?list=PLv6L7aZ2kXMKzbh91M8tBZ0PgZeFwhzbJ">Redolfi PAJC 2020/2021 Video</a></p>
 </div>
-
+<!--
 <div class="note info">
   <h5>Slide e materiale</h5>
   <p>Potete scaricare le slide del corso, i progetti Java e C ed altro materiale a supporto da questo link: <a href="https://www.dropbox.com/sh/tl0xb00qkr4sdm4/AABztZk5kGQfZTToxE86N8esa?dl=0">Redolfi PAJC 2020/2021 Materiale</a></p>
 </div>
+-->
 
-
-
+<!--
 History...
 --------------------------
 
 Per chi fosse interessato al materiale degli scorsi anni (slide, temi d'esame, etc...) trova tutto [qui][pajc-old-site].
 
 [pajc-old-site]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
+-->
