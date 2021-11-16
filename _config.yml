@@ -8,7 +8,7 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: ATTENZIONE: la lezione di mercoledì 17/11 si svolgerà in DAD!
+news: *ATTENZIONE* la lezione di mercoledì 17/11 si svolgerà in DAD!
 
 author :
   name : Massimiliano Redolfi
