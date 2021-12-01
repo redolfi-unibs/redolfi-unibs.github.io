@@ -1,3 +1,9 @@
+---
+layout: docs
+title: Modalità Esame
+permalink: /docs/modalita_esame/
+---
+
 Gli esami di PAJC / EPS possono svolgersi in due modalità:
 
 #Modalità Prova Scritta:
