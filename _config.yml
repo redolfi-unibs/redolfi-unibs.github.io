@@ -8,7 +8,7 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: sono pubblicati gli esiti dell'appello di febbraio 22
+news: la lezione di mercoledì 16 è sospesa! ci vediamo venerdì reolarmente in laboratorio.
 
 author :
   name : Massimiliano Redolfi
