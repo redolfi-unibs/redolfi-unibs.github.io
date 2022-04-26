@@ -8,7 +8,7 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: la lezione mercoledì 30 è sospesa, ci vediamo venerdì regolarmente in laboratorio.
+news: le lezioni di mercoledì 26 e venerdì 29 sono sospese. Le lezioni riprenderanno mercoledì 4 maggio.
 
 author :
   name : Massimiliano Redolfi
