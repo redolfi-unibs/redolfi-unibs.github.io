@@ -27,7 +27,7 @@ permalink: /docs/altro/
 
 
 # EPS
-[EPS - appello 08 luglio 2022]({{ site.url }}/assets/esiti_eps/EPS-esiti-2022-06-20.pdf)
+[EPS - appello 08 luglio 2022]({{ site.url }}/assets/esiti_eps/EPS-esiti-2022-07-08.pdf)
 
 [EPS - appello 20 giugno 2022]({{ site.url }}/assets/esiti_eps/EPS-esiti-2022-06-20.pdf)
 
