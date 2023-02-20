@@ -6,12 +6,12 @@ permalink: /docs/pajc/
 
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
 
-Per quanto concerne l'anno accademico 2022/2023 il materiale (slide ed esercizi) verrà messo on-line durante lo svolgimento del corso, trovate il materiale qui [qui][materaile_2223] 
+Per quanto concerne l'anno accademico 2022/2023 il materiale (slide ed esercizi) verrà messo on-line durante lo svolgimento del corso, trovate il materiale qui [qui][materiale_2023] 
 
 
 Se vi perdete una lezione o volete ripassare un argomento vi ricordo che il materiale dello scorso anno è ancora disponibile on-line, compresi tutti i video (come sempre il corso si evolve nel tempo ma gli argomenti dello scorso anno sono analoghi a quelli attuali quindi potete sfruttare i video oltre alle dispense [dispense_old][materiale_old])).
 
-[materiale_2223]: https://www.dropbox.com/sh/1qwr2r8mzt53sp9/AAAYj3hCCiPXrDBFsvvXTqIxa?dl=0
+[materiale_2023]: https://www.dropbox.com/sh/1qwr2r8mzt53sp9/AAAYj3hCCiPXrDBFsvvXTqIxa?dl=0
 [materiale_old]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
 
 <!--
