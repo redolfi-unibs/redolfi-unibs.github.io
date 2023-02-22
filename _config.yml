@@ -8,7 +8,7 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: PAJC è iniziato il nuovo semestre!!
+news: on-line gli esiti dell'appello di febbraio
 
 author :
   name : Massimiliano Redolfi
