@@ -9,6 +9,8 @@ permalink: /docs/altro/
 </div>
 
 # PAJC
+[PAJC - appello 13 aprile 2023]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2023-04-13.pdf)
+
 [PAJC - appello 09 febbraio 2023]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2023-02-09.pdf)
 
 [PAJC - appello 17 gennaio 2023]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2023-01-17.pdf)
@@ -33,6 +35,8 @@ permalink: /docs/altro/
 
 
 # EPS
+[EPS - appello 13 aprile 2023]({{ site.url }}/assets/esiti_eps/EPS-esiti-2023-04-13.pdf)
+
 [EPS - appello 09 febbraio 2023]({{ site.url }}/assets/esiti_eps/EPS-esiti-2023-02-09.pdf)
 
 [EPS - appello 17 gennaio 2023]({{ site.url }}/assets/esiti_eps/EPS-esiti-2023-01-17.pdf)
