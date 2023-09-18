@@ -2,13 +2,13 @@ highlighter: rouge
 relative_permalinks: false
 url: https://redolfi-unibs.github.io/
 title: redolfi@unibs
-slogan: PAJC & EPS Official Site!
-description: PAJC & EPS Official Site
+slogan: PAJC Official Site!
+description: PAJC Official Site
 google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: on-line gli esiti dell'appello di luglio
+news: PAJC: mercoledì 20 settembre ore 9.15 iniziano le lezioni!
 
 author :
   name : Massimiliano Redolfi
