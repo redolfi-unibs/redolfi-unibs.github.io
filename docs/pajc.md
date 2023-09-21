@@ -4,6 +4,8 @@ title: PAJC
 permalink: /docs/pajc/
 ---
 
+[Per collegarti a TEAMS clicca qui!!!][TEAMS]
+
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
 
 Per quanto concerne l'anno accademico 2022/2023 il materiale (slide ed esercizi) verrà messo on-line durante lo svolgimento del corso, trovate il materiale [qui][materiale_2023].
@@ -11,6 +13,7 @@ Per quanto concerne l'anno accademico 2022/2023 il materiale (slide ed esercizi)
 
 Se vi perdete una lezione o volete ripassare un argomento vi ricordo che il materiale dello scorso anno è ancora disponibile on-line, compresi tutti i video (come sempre il corso si evolve nel tempo ma gli argomenti dello scorso anno sono analoghi a quelli attuali quindi potete sfruttare i video oltre alle dispense [dispense_old][materiale_old])).
 
+[TEAMS]:https://teams.microsoft.com/l/meetup-join/19:Z9WjjfbF6bjAymOeueU3YiLv5ZYUWPzwErxk1pWJXyU1@thread.tacv2/1695299724721?context=%7B%22Tid%22:%22d5c8af23-527d-498f-94b5-f9745fee3afc%22,%22Oid%22:%22861d0034-5b44-4771-8bc5-70b0da006d26%22%7D
 [materiale_2023]: https://www.dropbox.com/sh/1qwr2r8mzt53sp9/AAAYj3hCCiPXrDBFsvvXTqIxa?dl=0
 [materiale_old]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
 
