@@ -3,7 +3,7 @@ layout: docs
 title: PAJC
 permalink: /docs/pajc/
 ---
-
+LAB 21/9
 [Per collegarti a TEAMS clicca qui!!!][TEAMS]
 
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
