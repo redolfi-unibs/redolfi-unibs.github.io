@@ -14,7 +14,7 @@ Per quanto concerne l'anno accademico 2023/2024 il materiale (slide ed esercizi)
 
 Se vi perdete una lezione o volete ripassare un argomento vi ricordo che anche il materiale dello scorso anno è disponibile on-line (come sempre il corso si evolve nel tempo ma gli argomenti dello scorso anno sono analoghi a quelli attuali quindi potete sfruttare i video oltre alle dispense [dispense_old][materiale_old])).
 
-[TEAMS]:https://teams.microsoft.com/l/meetup-join/19:Z9WjjfbF6bjAymOeueU3YiLv5ZYUWPzwErxk1pWJXyU1@thread.tacv2/1696506968824?context=%7B%22Tid%22:%22d5c8af23-527d-498f-94b5-f9745fee3afc%22,%22Oid%22:%22861d0034-5b44-4771-8bc5-70b0da006d26%22%7D
+[TEAMS]:https://teams.microsoft.com/l/meetup-join/19:Z9WjjfbF6bjAymOeueU3YiLv5ZYUWPzwErxk1pWJXyU1@thread.tacv2/1697111226735?context=%7B%22Tid%22:%22d5c8af23-527d-498f-94b5-f9745fee3afc%22,%22Oid%22:%22861d0034-5b44-4771-8bc5-70b0da006d26%22%7D
 
 [materiale_2023_24]: https://www.dropbox.com/scl/fo/b1jc709lq2wr7btiqol8z/h?rlkey=3yug5lvf9qx10mw9ess3aifhx&dl=0
 
