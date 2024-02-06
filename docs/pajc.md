@@ -25,8 +25,11 @@ Se vi perdete una lezione o volete ripassare un argomento vi ricordo che anche i
   <p>Tutti i video delle lezioni e dei lab per l'anno 2020/2021 sono on-line sul canale youtube: <a href="https://www.youtube.com/playlist?list=PLv6L7aZ2kXMKzbh91M8tBZ0PgZeFwhzbJ">Redolfi PAJC 2020/2021 Video</a></p>
 </div>
 
-*Programma dettagliato del corso*
-l corso affronta aspetti di programmazione avanzata in ambienti Java e C.
+<div class="note info">
+  <h5>Programma dettagliato del corso<h5>
+</div>
+
+Il corso affronta aspetti di programmazione avanzata in ambienti Java e C.
 
 Al termine del corso lo studente sarà in grado di progettare e realizzare applicazioni Java grafiche distribuite in grado di funzionare in rete quali: giochi interattivi, sistemi di simulazione, comunicazione, etc. 
 Se da un lato Java è il linguaggio che utilizzeremo per creare sistemi complessi il C sarà fondamentale per comprendere come tali sistemi sono implementati a livello macchina.
