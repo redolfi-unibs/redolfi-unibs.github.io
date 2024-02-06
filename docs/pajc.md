@@ -26,7 +26,7 @@ Se vi perdete una lezione o volete ripassare un argomento vi ricordo che anche i
 </div>
 
 <div class="note info">
-  <h5>Programma dettagliato del corso<h5>
+  <h5>Programma dettagliato del corso</h5>
 </div>
 
 Il corso affronta aspetti di programmazione avanzata in ambienti Java e C.
