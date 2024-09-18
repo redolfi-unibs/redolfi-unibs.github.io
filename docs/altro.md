@@ -9,6 +9,8 @@ permalink: /docs/altro/
 </div>
 
 # PAJC
+[PAJC - appello 12 settembre 2024]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2024-09-12.pdf)
+
 [PAJC - appello 10 luglio 2024]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2024-07-10.pdf)
 
 [PAJC - appello 21 giugno 2024]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2024-06-21.pdf)
