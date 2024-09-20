@@ -3,6 +3,8 @@ layout: docs
 title: PAJC
 permalink: /docs/pajc/
 ---
+[materiale_2024_25]: https://www.dropbox.com/scl/fo/s4qh2151ntzzqf58s8q4s/AAUPle2DhPO7zlUmcTj_ok4?rlkey=vyegr5ul4cux4afo2lw2cl58e&dl=0
+
 [materiale_2023_24]: https://www.dropbox.com/scl/fo/b1jc709lq2wr7btiqol8z/h?rlkey=3yug5lvf9qx10mw9ess3aifhx&dl=0
 
 [materiale_old]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
@@ -10,7 +12,7 @@ permalink: /docs/pajc/
 
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
 
-Per quanto concerne l'anno accademico 2023/2024 il materiale (slide ed esercizi) verrà messo on-line durante lo svolgimento del corso, trovate il materiale [qui][materiale_2023_24].
+Per quanto concerne l'anno accademico 2023/2024 il materiale (slide ed esercizi) verrà messo on-line durante lo svolgimento del corso, trovate il materiale [qui][materiale_2024_25].
 
 Se vi perdete una lezione o volete ripassare un argomento vi ricordo che anche il materiale dello scorso anno è disponibile on-line (come sempre il corso si evolve nel tempo ma gli argomenti dello scorso anno sono analoghi a quelli attuali quindi potete sfruttare i video oltre alle dispense [dispense_old][materiale_old])).
 
