@@ -8,7 +8,9 @@ permalink: /docs/pajc/
 [materiale_2023_24]: https://www.dropbox.com/scl/fo/b1jc709lq2wr7btiqol8z/h?rlkey=3yug5lvf9qx10mw9ess3aifhx&dl=0
 
 [materiale_old]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
+[live_teams]: https://teams.microsoft.com/l/meetup-join/19:8SZgCOFs3ZRjti8O1ilyqSY34ImUT-vjNXL1tGLcL-o1@thread.tacv2/1727439405115?context=%7B%22Tid%22:%22d5c8af23-527d-498f-94b5-f9745fee3afc%22,%22Oid%22:%22861d0034-5b44-4771-8bc5-70b0da006d26%22%7D
 
+[Live teams][live_teams]
 
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
 
