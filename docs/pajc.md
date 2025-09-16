@@ -3,18 +3,19 @@ layout: docs
 title: PAJC
 permalink: /docs/pajc/
 ---
+[materiale_2025_26]: https://www.dropbox.com/scl/fo/aaator35js0jgcuhn0qzs/ACwbhti98Z7m1OT9rXWPLoE?rlkey=6sh55ts7sxr37pbz5nawxx7j1&dl=0
 [materiale_2024_25]: https://www.dropbox.com/scl/fo/s4qh2151ntzzqf58s8q4s/AAUPle2DhPO7zlUmcTj_ok4?rlkey=vyegr5ul4cux4afo2lw2cl58e&dl=0
 
 [materiale_2023_24]: https://www.dropbox.com/scl/fo/b1jc709lq2wr7btiqol8z/h?rlkey=3yug5lvf9qx10mw9ess3aifhx&dl=0
 
 [materiale_old]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
-[live_teams]: https://teams.microsoft.com/l/meetup-join/19:8SZgCOFs3ZRjti8O1ilyqSY34ImUT-vjNXL1tGLcL-o1@thread.tacv2/1727439405115?context=%7B%22Tid%22:%22d5c8af23-527d-498f-94b5-f9745fee3afc%22,%22Oid%22:%22861d0034-5b44-4771-8bc5-70b0da006d26%22%7D
+[live_teams]: https://teams.microsoft.com/l/meetup-join/19%3ahCxZSyKaNEACcFhLc6JHojHtiqOlUpb2oEghvME4Ww01%40thread.tacv2/1758037556585?context=%7b%22Tid%22%3a%22d5c8af23-527d-498f-94b5-f9745fee3afc%22%2c%22Oid%22%3a%22861d0034-5b44-4771-8bc5-70b0da006d26%22%7d
 
 [Live teams][live_teams]
 
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
 
-Per quanto concerne l'anno accademico 2023/2024 il materiale (slide ed esercizi) verrà messo on-line durante lo svolgimento del corso, trovate il materiale [qui][materiale_2024_25].
+Per quanto concerne l'anno accademico 2025/2026 il materiale (slide ed esercizi) verrà messo on-line durante lo svolgimento del corso, trovate il materiale [qui][materiale_2025_26].
 
 Se vi perdete una lezione o volete ripassare un argomento vi ricordo che anche il materiale dello scorso anno è disponibile on-line (come sempre il corso si evolve nel tempo ma gli argomenti dello scorso anno sono analoghi a quelli attuali quindi potete sfruttare i video oltre alle dispense [dispense_old][materiale_old])).
 
