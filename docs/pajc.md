@@ -11,7 +11,10 @@ permalink: /docs/pajc/
 [materiale_old]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
 [live_teams]: https://teams.microsoft.com/l/meetup-join/19%3ahCxZSyKaNEACcFhLc6JHojHtiqOlUpb2oEghvME4Ww01%40thread.tacv2/1758037556585?context=%7b%22Tid%22%3a%22d5c8af23-527d-498f-94b5-f9745fee3afc%22%2c%22Oid%22%3a%22861d0034-5b44-4771-8bc5-70b0da006d26%22%7d
 
+[live_meet]: https://meet.google.com/kbg-hevp-oog
+
 [Live teams][live_teams]
+[Live meet][live_meet]
 
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
 
