@@ -13,7 +13,7 @@ permalink: /docs/pajc/
 
 [live_meet]: https://meet.google.com/kbg-hevp-oog
 
-[Live teams][live_teams]
+<!--[Live teams][live_teams]-->
 [Live meet][live_meet]
 
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
