@@ -9,17 +9,7 @@ permalink: /docs/altro/
 </div>
 
 # PAJC
-[PAJC - appello 10 settembre 2025]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2025-09-10.pdf)
-
-[PAJC - appello 18 luglio 2025]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2025-07-18.pdf)
-
-[PAJC - appello 12 giugno 2025]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2025-06-12.pdf)
-
-[PAJC - appello 16 aprile 2025]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2025-04-16.pdf)
-
-[PAJC - appello 5 febbraio 2025]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2025-02-05.pdf)
-
-[PAJC - appello 16 gennaio 2025]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2025-01-16.pdf)
+[PAJC - appello 19 gennaio 2026]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2026-01-19.pdf)
 
 
 <div class="note warning">
