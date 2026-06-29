@@ -10,6 +10,8 @@ permalink: /docs/altro/
 
 # PAJC
 
+[PAJC - appello 24 giugno 2026]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2026-06-24.pdf)
+
 [PAJC - appello 08 giugno 2026]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2026-06-08.pdf)
 
 [PAJC - appello 02 marzo 2026]({{ site.url }}/assets/esiti_pajc/PAJC-esiti-2026-04-02.pdf)
