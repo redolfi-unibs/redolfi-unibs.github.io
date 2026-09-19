@@ -1,0 +1,29 @@
+# Anteprima locale del sito via Traefik condiviso (docker-utils):
+# https://redolfi-unibs.localhost — nessuna porta pubblicata sull'host.
+# Con SLUG nel .env si isolano stack paralleli (worktree), come negli altri progetti.
+name: ${COMPOSE_PROJECT_NAME:-redolfi-unibs}
+
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: ${SLUG:-redolfi-unibs}-site
+    environment:
+      SITE_HOST: ${SLUG:-redolfi-unibs}.localhost
+    volumes:
+      - .:/site:cached
+      # Maschera le gem native macOS installate in vendor/bundle dall'uso nativo.
+      - /site/vendor
+    networks: [proxy]
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.${SLUG:-redolfi-unibs}.rule=Host(`${SLUG:-redolfi-unibs}.localhost`)"
+      - "traefik.http.routers.${SLUG:-redolfi-unibs}.entrypoints=websecure"
+      - "traefik.http.routers.${SLUG:-redolfi-unibs}.tls=true"
+      - "traefik.http.services.${SLUG:-redolfi-unibs}.loadbalancer.server.port=4000"
+
+networks:
+  proxy:
+    external: true

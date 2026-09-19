@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Esiti appelli
-permalink: /docs/altro/
+permalink: /docs/esiti/
+redirect_from: /docs/altro/
 ---
 
 <div class="note warning">

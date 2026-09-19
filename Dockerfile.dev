@@ -1,0 +1,33 @@
+# Anteprima locale del sito con la stessa toolchain di GitHub Pages.
+# Solo sviluppo: il sito pubblicato lo costruisce GitHub Pages al push.
+FROM ruby:3.3.11-slim-bookworm
+
+ENV LANG=C.UTF-8 \
+    TZ=Europe/Rome \
+    BUNDLE_JOBS=4 \
+    BUNDLE_RETRY=3
+
+# build-essential per le gem native di github-pages (commonmarker, sassc, ffi, ...).
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends \
+      build-essential \
+      ca-certificates \
+      git \
+      libyaml-dev \
+      tzdata && \
+    rm -rf /var/lib/apt/lists/*
+
+WORKDIR /site
+
+# Pre-installa le gem (cache layer). Le gem vanno in /usr/local/bundle:
+# l'immagine ruby imposta BUNDLE_APP_CONFIG lì, quindi il .bundle/config
+# del repo (path vendor/bundle, per l'uso nativo su macOS) viene ignorato.
+COPY Gemfile Gemfile.lock ./
+RUN bundle install
+
+COPY docker/serve.sh /usr/local/bin/serve.sh
+RUN chmod +x /usr/local/bin/serve.sh
+
+EXPOSE 4000
+
+CMD ["serve.sh"]

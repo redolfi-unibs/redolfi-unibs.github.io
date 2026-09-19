@@ -5,7 +5,7 @@ title: redolfi@unibs
 slogan: PAJC Official Site!
 description: PAJC Official Site
 google_analytics_id: 00-0000-000
-exclude: ["CNAME", "README", "bin", "build.xml"]
+exclude: ["CNAME", "archivio", "README.md", "CLAUDE.md", "Gemfile", "Gemfile.lock", "vendor", "docker", "Dockerfile.dev", "docker-compose.yml", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
 news: "E' iniziato il corso PAJC<br>Anno 1 era Claude<br><small>(26/27 nel
@@ -20,3 +20,7 @@ project:
   name: REDOLFI-UNIBS
   github: redolfi-unibs
 theme: jekyll-theme-architect
+
+# Redirect da /docs/altro/ (vecchio URL della pagina esiti); plugin consentito da GitHub Pages.
+plugins:
+  - jekyll-redirect-from
