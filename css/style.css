@@ -207,6 +207,7 @@ body > footer a:hover img {
   font-size: 1.75em;
   line-height: 1.15em;
   margin: 0;
+  text-align: center;
 }
 
 .intro p small {
