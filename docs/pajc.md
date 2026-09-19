@@ -6,15 +6,14 @@ permalink: /docs/pajc/
 
 [materiale_2026_27]: https://www.dropbox.com/scl/fo/351w8jj12x6vb4mmzaehb/AF8rrn9WB3sEzp_qu9Eu3y0?rlkey=dvh3menhvp426dbn6dszb2iao&dl=0
 [materiale_old]: https://www.dropbox.com/sh/3s0ravwk9dk18ud/AAAz26io9Y6gEt4Gyqz0llKRa?dl=0
-[live_meet]: https://meet.google.com/kbg-hevp-oog
 
 <!--[Live teams][live_teams]-->
 
-[Live meet][live_meet]
+<!-- [Live meet][live_meet] -->
 
 Qui trovate tutte le informazioni ed il materiale relativo al mio corso di Programmazione Avanzata Java e C.
 
-Per quanto concerne l'anno accademico 2025/2026 il materiale (slide ed esercizi) verrà messo on-line durante lo svolgimento del corso, trovate il materiale [qui][materiale_2026_27].
+Per quanto concerne l'anno accademico 2026/2027 il materiale (slide ed esercizi) verrà messo on-line durante lo svolgimento del corso, trovate il materiale [qui][materiale_2026_27].
 
 Se vi perdete una lezione o volete ripassare un argomento vi ricordo che anche il materiale dello scorso anno è disponibile on-line (come sempre il corso si evolve nel tempo ma gli argomenti dello scorso anno sono analoghi a quelli attuali quindi potete sfruttare i video oltre alle dispense [dispense_old][materiale_old])).
 

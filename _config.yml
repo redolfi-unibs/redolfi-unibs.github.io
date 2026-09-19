@@ -8,12 +8,12 @@ google_analytics_id: 00-0000-000
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
 
-news: il 17 settemnbre 2025 riparte PAJC!
+news: E' iniziato il corso PAJC anno 1 era Claude (26/27 nel vecchio calendario).
 
-author :
-  name : Massimiliano Redolfi
-  email : massimiliano.redolfi@unibs.it
-  github : redolfi-unibs
+author:
+  name: Massimiliano Redolfi
+  email: massimiliano.redolfi@unibs.it
+  github: redolfi-unibs
 
 project:
   name: REDOLFI-UNIBS
