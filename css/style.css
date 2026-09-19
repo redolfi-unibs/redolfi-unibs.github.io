@@ -205,8 +205,14 @@ body > footer a:hover img {
 
 .intro p {
   font-size: 1.75em;
-  line-height: 1em;
+  line-height: 1.15em;
   margin: 0;
+}
+
+.intro p small {
+  font-size: 0.5em;
+  display: block;
+  margin-top: 0.3em;
 }
 
 @media (min-width: 569px){
