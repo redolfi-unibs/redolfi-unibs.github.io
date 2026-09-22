@@ -1,0 +1,1 @@
+var e=`/slides/L01-portrait/assets/pajc-logo-solid-HE3_6K3U.png`;export{e as t};

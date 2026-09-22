@@ -1,0 +1,104 @@
+/*
+ * Aggiunte al tema ereditato (style.css resta com'era): font, navigazione,
+ * codice, box e i tre elenchi generati (slide, dispense, esiti).
+ */
+
+/* Il vecchio sito caricava Lato da Google Fonts via http: in https il browser
+   lo bloccava, quindi il sito è sempre stato visto in Helvetica. Si fissa
+   quella, senza richieste esterne. */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Navigazione in testata: sei voci nella metà destra. */
+.main-nav ul { text-align: right; }
+.main-nav li { margin-right: 2px; }
+.main-nav li:last-child { margin-right: 0; }
+.main-nav li a { font-size: 13px; padding: 0.5em 0.7em; }
+.mobile-nav li { width: auto; }
+.mobile-nav a { font-size: 12px; padding: 5px 2px; }
+
+/* Titolo e sezioni dell'articolo. */
+article h1 { margin-bottom: 0.5em; }
+article h2 { font-size: 1.3em; }
+article h3 { font-size: 1.1em; }
+article > p:first-of-type { margin-top: 0; }
+
+/* Codice: style.css veste solo il codice dentro p/li; qui i blocchi. */
+article pre {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  overflow: auto;
+  box-shadow: inset 0 1px 10px rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.1), 0 -1px 0 rgba(0,0,0,.5);
+}
+article pre code {
+  display: block;
+  padding: 0;
+  line-height: 1.5em;
+  background: none;
+  box-shadow: none;
+}
+article p > code, article li > code {
+  font-size: 0.85em;
+  line-height: 1.4em;
+  padding: 0 0.4em;
+}
+
+/* Box (admonition di Python-Markdown, resi come .note di style.css). */
+.note a { color: #fc0; }
+.note a:hover { color: #fff; }
+
+/* Breaking news della home: sotto l'avviso, solo se sito.yaml la definisce.
+   Il corsivo e l'ombra del testo dell'.intro qui non servono. */
+.breaking-news {
+  max-width: 34em;
+  margin: 1.2em auto 0;
+  padding: 0.7em 1.2em;
+  background: #fc0;
+  color: #222;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.3);
+  text-shadow: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9em;
+  text-align: center;
+}
+.breaking-news a { color: #222; text-decoration: underline; }
+
+/* Fascia scura della home. */
+.quickstart .unit { padding: 30px 20px; }
+.quickstart p { font-size: 0.9em; margin: 0.6em 0; }
+.quickstart-link { font-size: 1.1em; font-weight: 700; text-transform: uppercase; }
+
+/* Card della home: tre per riga con lo stesso gutter (gridism lo allarga solo
+   al primo e all'ultimo figlio) e un .clear a fine riga, sennò la quarta card
+   si incastra sotto la più corta. */
+.features .unit { min-height: 200px; padding-left: 20px !important; padding-right: 20px !important; }
+.features h2 { margin-bottom: 0.3em; }
+.features p { font-size: 0.85em; margin-top: 0; }
+
+/* Elenco dei deck (slide e dispense). */
+.elenco-deck { list-style: none; padding: 0; margin: 0 0 1.5em; }
+.deck { display: flex; gap: 1em; padding: 0.8em 0; border-top: 1px solid rgba(255,255,255,.1); }
+.deck:first-child { border-top: none; }
+.deck p { margin: 0; }
+.deck-codice { flex: 0 0 3.2em; font-family: Menlo, Consolas, monospace; font-weight: 700; color: #fc0; }
+.deck-titolo { font-weight: 700; }
+.deck-sottotitolo { font-size: 0.85em; color: #bbb; }
+.deck-sommario { font-size: 0.8em; color: #ccc; margin-top: 0.3em; }
+.deck-formati { margin-top: 0.3em; font-size: 0.75em; text-transform: uppercase; font-weight: 700; }
+.deck-formati a { margin-right: 1.2em; }
+.deck-stato { font-size: 0.7em; color: #999; }
+
+/* Esiti degli appelli. */
+.elenco-esiti { list-style: none; padding: 0; }
+.elenco-esiti li { padding: 0.35em 0; border-top: 1px solid rgba(255,255,255,.1); }
+.elenco-esiti li:first-child { border-top: none; }
+
+/* Pagina 404. */
+.docs article { min-height: 400px; }

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>PAJC · redolfi@unibs</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Programma, materiale e organizzazione del corso di Programmazione Avanzata Java e C, Università degli Studi di Brescia.">
+<link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/gridism.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/pajc.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+<body class="wrap">
+
+<header>
+  <nav class="mobile-nav show-on-mobiles">
+    <ul>
+<li class="current"><a href="/docs/pajc/">PAJC</a></li>
+<li class=""><a href="/docs/dispense/">Dispense</a></li>
+<li class=""><a href="/docs/slide/">Slide</a></li>
+<li class=""><a href="/docs/laboratorio/">Lab</a></li>
+<li class=""><a href="/docs/modalita_esame/">Esame</a></li>
+<li class=""><a href="/docs/esiti/">Esiti</a></li>
+    </ul>
+  </nav>
+  <div class="grid">
+    <div class="unit half center-on-mobiles">
+      <a href="/">
+        <h1><span class="shadow">redolfi@unibs</span></h1>
+        <small class="shadow">PAJC Official Site!</small>
+      </a>
+    </div>
+    <nav class="main-nav unit half hide-on-mobiles">
+      <ul>
+<li class="current"><a href="/docs/pajc/">PAJC</a></li>
+<li class=""><a href="/docs/dispense/">Dispense</a></li>
+<li class=""><a href="/docs/slide/">Slide</a></li>
+<li class=""><a href="/docs/laboratorio/">Lab</a></li>
+<li class=""><a href="/docs/modalita_esame/">Esame</a></li>
+<li class=""><a href="/docs/esiti/">Esiti</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="docs">
+  <div class="grid">
+
+    <div class="unit four-fifths">
+      <article>
+        <h1>PAJC</h1>
+        <p>Qui trovate tutte le informazioni e il materiale del mio corso di
+Programmazione Avanzata Java e C.</p>
+<h2>Il corso</h2>
+<p>PAJC è un corso del secondo anno di Ingegneria Informatica: 88 ore, 40 di
+lezione e 48 di laboratorio.</p>
+<p>Al termine del corso lo studente sarà in grado di progettare e realizzare
+applicazioni Java grafiche e distribuite, in grado di funzionare in rete: giochi
+interattivi, sistemi di simulazione, comunicazione. Se Java è il linguaggio con
+cui costruiremo sistemi complessi, il C serve a capire come quei sistemi sono
+realizzati a livello macchina; alla fine del corso i due mondi si toccano, con
+Java che chiama il C.</p>
+<p>Si lavora con <strong>Java 21 o superiore</strong> ed Eclipse, e con <strong>C17</strong> (gcc o clang) e
+Visual Studio Code. Le interfacce grafiche sono in Java Swing.</p>
+<h3>Dove sta il materiale</h3>
+<ul>
+<li><strong><a href="/docs/dispense/">Dispense</a></strong>: una per argomento, in PDF, escono durante il
+  corso.</li>
+<li><strong><a href="/docs/slide/">Slide</a></strong>: quelle proiettate a lezione e in laboratorio, da
+  sfogliare nel browser, in PDF o da telefono.</li>
+<li><strong><a href="/docs/laboratorio/">Esercizi</a></strong>: i sorgenti Java e C degli esercizi di
+  laboratorio, nel repository GitHub <a href="https://github.com/max-ai4res/pajc-lab27">max-ai4res/pajc-lab27</a>, aggiornato
+  lezione per lezione.</li>
+<li><strong><a href="/docs/modalita_esame/">Modalità esame</a></strong> ed
+  <strong><a href="/docs/esiti/">esiti degli appelli</a></strong>.</li>
+</ul>
+<h2>Programma Java</h2>
+<h3>J1) Ripasso e Java moderno</h3>
+<ul>
+<li>approccio Java alla programmazione a oggetti: classi, ereditarietà,
+  polimorfismo, tipo statico e tipo dinamico</li>
+<li>interfacce come protocolli</li>
+<li><code>instanceof</code> con pattern matching</li>
+<li><code>equals</code> e <code>hashCode</code></li>
+<li>enumerazioni e macchine a stati con switch expression</li>
+<li>collezioni: ArrayList, Set, HashMap</li>
+<li>gestione delle eccezioni e try-with-resources</li>
+<li>lettura e scrittura di file</li>
+<li>i tool di sviluppo: java, javac, Eclipse, git</li>
+</ul>
+<h3>J2) Dal nome alla funzione</h3>
+<ul>
+<li>classi anonime, lambda expression, method reference</li>
+<li>interfacce funzionali e il catalogo di <code>java.util.function</code></li>
+<li>le interfacce a fondo: metodi default, static e private; Comparator come
+  modello</li>
+<li>classi sealed e switch esaustivo</li>
+</ul>
+<h3>J3) Stream</h3>
+<ul>
+<li>pipeline, laziness e ordine di valutazione</li>
+<li>Collectors, groupingBy, reduce, flatMap, toList</li>
+<li>Optional</li>
+</ul>
+<h3>J4) Interfacce grafiche con Java Swing</h3>
+<ul>
+<li>il pattern Observer e l'Event Delegation Model</li>
+<li>eventi semantici e di basso livello, listener</li>
+<li>componenti, container e layout manager</li>
+<li>componenti custom per composizione, eventi custom con EventListenerList</li>
+<li>il componente che si disegna da solo: <code>paintComponent</code> e le primitive grafiche</li>
+<li>sistemi di riferimento e trasformazioni di coordinate</li>
+<li>interazione con mouse e tastiera, animazioni con Timer</li>
+</ul>
+<h3>J5) I thread</h3>
+<ul>
+<li>processi e thread; Runnable e Callable</li>
+<li>ExecutorService, Future, shutdown; partizionamento del lavoro</li>
+<li>sincronizzazione: synchronized e monitor, lock, oggetti atomici</li>
+<li>attività schedulate</li>
+<li>virtual thread</li>
+<li>Swing e i thread: Event Dispatch Thread, invokeLater, SwingWorker</li>
+</ul>
+<h3>J6) MVC</h3>
+<ul>
+<li>Model-View-Controller sul codice del corso: BaseModel, PropertyChangeSupport</li>
+<li>eventi come record</li>
+<li>integrazione della comunicazione client/server nel modello MVC</li>
+</ul>
+<h3>J7) Espressioni regolari</h3>
+<ul>
+<li>Pattern e Matcher</li>
+<li>integrazione con gli stream</li>
+</ul>
+<h3>J8) Comunicazione client/server</h3>
+<ul>
+<li>l'essenziale di TCP/IP; i Socket in Java</li>
+<li>il server: da sequenziale a multithread a un virtual thread per client</li>
+<li>protocolli testuali di comunicazione</li>
+<li>client full-duplex a riga di comando e client grafici MVC</li>
+<li>HttpClient</li>
+</ul>
+<h3>J9) Reflection e codice a runtime</h3>
+<ul>
+<li>ispezione di classi e invocazione dinamica</li>
+<li>compiler API: la calcolatrice che impara operatori nuovi a runtime</li>
+</ul>
+<h3>J10) Java e C insieme</h3>
+<ul>
+<li>Foreign Function &amp; Memory API: Java chiama il C compilato in laboratorio</li>
+<li>dove finisce il client/server: architetture a livelli, API, cloud</li>
+</ul>
+<h2>Programma C</h2>
+<h3>C1) Puntatori e memoria</h3>
+<ul>
+<li>puntatori: <code>&amp;</code> e <code>*</code>, aritmetica, dualità con gli array</li>
+<li>stringhe</li>
+<li>stack e heap; passaggio dei parametri</li>
+<li>allocazione dinamica: malloc e free, e gli errori da evitare (leak, dangling
+  pointer, double free)</li>
+</ul>
+<h3>C2) Dati e funzioni</h3>
+<ul>
+<li>struct, typedef, union ed endianness, campi di bit</li>
+<li>puntatori a funzione e callback; qsort con il comparatore</li>
+<li>macro con parametri</li>
+</ul>
+<h3>C3) La memoria, e come funziona Java sotto</h3>
+<ul>
+<li>allocazione dinamica avanzata</li>
+<li>il confronto con la JVM: stack per thread, heap, garbage collector</li>
+<li>direttive di precompilazione</li>
+<li>Makefile e struttura di un progetto C</li>
+</ul>
+<h3>C4) Strutture dati e algoritmi</h3>
+<ul>
+<li>stack, code e code circolari</li>
+<li>liste concatenate</li>
+<li>ricerca sequenziale e binaria</li>
+<li>algoritmi di ordinamento</li>
+</ul>
+<h2>Laboratorio</h2>
+<p>In laboratorio si lavora a tappe: un tema proposto in step, qualche minuto di
+lavoro autonomo per step, poi analisi collettiva e soluzione scritta dal vivo in
+Eclipse, che a fine lab finisce nel repository. Sui model puri compaiono anche i
+test JUnit.</p>
+<p>I filoni dell'anno: la calcolatrice, dalla riga di comando agli operatori
+caricati a runtime; la Dama; Mandelbrot con rendering multithread; una chat
+client/server con client Swing; Asteroid; e i lab in C su stack, liste e
+matrici.</p>
+<p>Come scaricare e importare i progetti è spiegato nella pagina
+<a href="/docs/laboratorio/">Laboratorio</a>.</p>
+      </article>
+    </div>
+
+    <div class="unit one-fifth hide-on-mobiles">
+      <aside>
+        <h4>Il corso</h4>
+        <ul>
+<li class="current"><a href="/docs/pajc/">PAJC</a></li>
+<li class=""><a href="/docs/dispense/">Dispense</a></li>
+<li class=""><a href="/docs/slide/">Slide</a></li>
+<li class=""><a href="/docs/laboratorio/">Laboratorio</a></li>
+<li class=""><a href="/docs/modalita_esame/">Modalità esame</a></li>
+<li class=""><a href="/docs/esiti/">Esiti appelli</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="clear"></div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="grid">
+    <div class="unit two-thirds center-on-mobiles">
+      <p>redolfi@unibs · <a href="mailto:massimiliano.redolfi@unibs.it">massimiliano.redolfi@unibs.it</a></p>
+    </div>
+    <div class="unit one-third align-right center-on-mobiles">
+      <p>
+        Hosted on
+        <a href="https://github.com"><img src="/img/footer-logo.png" alt="GitHub"></a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
