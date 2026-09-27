@@ -87,7 +87,7 @@ article p > code, article li > code {
 .deck { display: flex; gap: 1em; padding: 0.8em 0; border-top: 1px solid rgba(255,255,255,.1); }
 .deck:first-child { border-top: none; }
 .deck p { margin: 0; }
-.deck-codice { flex: 0 0 3.2em; font-family: Menlo, Consolas, monospace; font-weight: 700; color: #fc0; }
+.deck-codice { flex: 0 0 3.6em; font-family: Menlo, Consolas, monospace; font-weight: 700; color: #fc0; }
 .deck-titolo { font-weight: 700; }
 .deck-sottotitolo { font-size: 0.85em; color: #bbb; }
 .deck-sommario { font-size: 0.8em; color: #ccc; margin-top: 0.3em; }
