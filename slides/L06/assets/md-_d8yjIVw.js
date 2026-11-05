@@ -1,0 +1,7 @@
+import{E as e,S as t,Z as n,_ as r,_t as i,ht as a,v as o,x as s,z as c}from"./modules/shiki-DHt5b-0d.js";import{n as l,t as u}from"./slidev/context-CBFjxUwK.js";import{t as d}from"./slidev/VClicks-Ba9XxSez.js";import{t as f}from"./slidev/default-CE65vV5o.js";var p={__name:`L06.web.md__slidev_37`,setup(p){let{$slidev:m,$nav:h,$clicksContext:g,$clicks:_,$page:v,$renderContext:y,$frontmatter:b}=l();return g.setup(),(l,p)=>{let m=d;return c(),o(f,i(e(a(u)(a(b),36))),{default:n(()=>[p[1]||=r(`h1`,null,`HTTP è testo`,-1),p[2]||=r(`pre`,{class:`pajc-console`,style:{"font-size":`0.92rem`,"line-height":`1.42`}},[s(`$ printf 'GET / HTTP/1.1\\r\\nHost: example.com\\r\\nConnection: close\\r\\n\\r\\n' | nc example.com 80
+`),r(`span`,{class:`ansi-g`},`HTTP/1.1 200 OK`),s(`
+Content-Type: text/html; charset=utf-8
+Content-Length: 1256
+
+<!doctype html>
+...`)],-1),t(m,null,{default:n(()=>[...p[0]||=[r(`ul`,null,[r(`li`,null,[s(`un protocollo `),r(`strong`,null,`a passo`),s(`: la riga di richiesta (metodo, percorso, versione), le intestazioni `),r(`code`,null,`Nome: valore`),s(`, una riga vuota; la risposta con la riga di stato, le intestazioni, la riga vuota e il corpo, lungo quanto dice `),r(`code`,null,`Content-Length`)]),r(`li`,null,[s(`righe terminate da `),r(`code`,null,`\\r\\n`),s(`. Ciò che un browser fa cento volte per pagina sono righe di testo in un socket`)])],-1)]]),_:1})]),_:1},16)}}};export{p as default};
