@@ -47,7 +47,7 @@
 <section class="docs">
   <div class="grid">
 
-    <div class="unit four-fifths">
+    <div class="unit whole">
       <article>
         <h1>PAJC</h1>
         <p>Qui trovate tutte le informazioni e il materiale del mio corso di
@@ -152,33 +152,35 @@ Visual Studio Code. Le interfacce grafiche sono in Java Swing.</p>
 <li>dove finisce il client/server: architetture a livelli, API, cloud</li>
 </ul>
 <h2>Programma C</h2>
-<h3>C1) Puntatori e memoria</h3>
+<h3>C1) Warm-up: la memoria in mano</h3>
 <ul>
-<li>puntatori: <code>&amp;</code> e <code>*</code>, aritmetica, dualità con gli array</li>
+<li>puntatori: <code>&amp;</code> e <code>*</code>, aritmetica, dualità con gli array, <code>const</code></li>
 <li>stringhe</li>
 <li>stack e heap; passaggio dei parametri</li>
 <li>allocazione dinamica: malloc e free, e gli errori da evitare (leak, dangling
-  pointer, double free)</li>
+  pointer, double free, overflow)</li>
+<li>struct e typedef; union ed endianness; campi di bit</li>
+<li>il preprocessore: include, macro e le loro trappole</li>
 </ul>
-<h3>C2) Dati e funzioni</h3>
+<h3>C2) Funzioni come valori</h3>
 <ul>
-<li>struct, typedef, union ed endianness, campi di bit</li>
-<li>puntatori a funzione e callback; qsort con il comparatore</li>
-<li>macro con parametri</li>
-</ul>
-<h3>C3) La memoria, e come funziona Java sotto</h3>
-<ul>
-<li>allocazione dinamica avanzata</li>
+<li>puntatori a funzione e callback; la tabella dei comandi</li>
+<li>qsort e bsearch con il comparatore</li>
+<li><code>void*</code> e il generico</li>
+<li>funzioni con un numero variabile di argomenti; macro variadiche</li>
+<li>"oggetti" in C: puntatori a funzione dentro una struct</li>
+<li>memoria dinamica avanzata: realloc, chi alloca e chi libera</li>
 <li>il confronto con la JVM: stack per thread, heap, garbage collector</li>
-<li>direttive di precompilazione</li>
-<li>Makefile e struttura di un progetto C</li>
 </ul>
-<h3>C4) Strutture dati e algoritmi</h3>
+<h3>C3) Strutture dati, file e un progetto che cresce</h3>
 <ul>
 <li>stack, code e code circolari</li>
-<li>liste concatenate</li>
-<li>ricerca sequenziale e binaria</li>
-<li>algoritmi di ordinamento</li>
+<li>liste concatenate e il doppio puntatore; liste generiche</li>
+<li>ricerca sequenziale e binaria; algoritmi di ordinamento con il comparatore
+  che conta i confronti</li>
+<li>file di testo e binari</li>
+<li>moduli: header, <code>static</code> ed <code>extern</code>, tipi opachi, compilazione separata</li>
+<li>Makefile e struttura di un progetto C</li>
 </ul>
 <h2>Laboratorio</h2>
 <p>In laboratorio si lavora a tappe: un tema proposto in step, qualche minuto di
@@ -192,20 +194,6 @@ matrici.</p>
 <p>Come scaricare e importare i progetti è spiegato nella pagina
 <a href="/docs/laboratorio/">Laboratorio</a>.</p>
       </article>
-    </div>
-
-    <div class="unit one-fifth hide-on-mobiles">
-      <aside>
-        <h4>Il corso</h4>
-        <ul>
-<li class="current"><a href="/docs/pajc/">PAJC</a></li>
-<li class=""><a href="/docs/dispense/">Dispense</a></li>
-<li class=""><a href="/docs/slide/">Slide</a></li>
-<li class=""><a href="/docs/laboratorio/">Laboratorio</a></li>
-<li class=""><a href="/docs/modalita_esame/">Modalità esame</a></li>
-<li class=""><a href="/docs/esiti/">Esiti appelli</a></li>
-        </ul>
-      </aside>
     </div>
 
     <div class="clear"></div>

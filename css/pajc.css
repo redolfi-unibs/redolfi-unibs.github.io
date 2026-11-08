@@ -82,18 +82,133 @@ article p > code, article li > code {
 .features h2 { margin-bottom: 0.3em; }
 .features p { font-size: 0.85em; margin-top: 0; }
 
-/* Elenco dei deck (slide e dispense). */
-.elenco-deck { list-style: none; padding: 0; margin: 0 0 1.5em; }
-.deck { display: flex; gap: 1em; padding: 0.8em 0; border-top: 1px solid rgba(255,255,255,.1); }
-.deck:first-child { border-top: none; }
+/* Elenchi di slide e dispense.
+   L'articolo occupa tutta la larghezza (pagina.html non ha più la barra laterale) ed è
+   diviso in sezioni (Java, C, Extra): una testata con il titolo e il conto delle voci, poi
+   le tile in una griglia che si riempie da sola (da 18em in su per colonna: due colonne
+   nell'articolo, una sola su telefono). Il testo dell'articolo è grande (21px dal tema):
+   le tile tornano a 16px, così due stanno comode una accanto all'altra.
+   Una tile è una colonna: codice (e versione), titolo, sottotitolo, sommario; in fondo,
+   sempre allineato fra tile vicine, il piede con i formati a sinistra e la data a destra. */
+.sezione-materiale { margin: 1.6em 0 0; font-size: 16px; line-height: 1.45; }
+.sezione-testa {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 0.9em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid #6a6a6a;
+}
+.sezione-testa h2 { margin: 0; font-size: 1.5em; color: #fff; }
+.sezione-conto { font-size: 0.85em; color: #aaa; white-space: nowrap; }
+.sezione-materiale h3 { margin: 1.2em 0 0.6em; font-size: 1.05em; color: #ddd; }
+.sezione-descrizione { margin: -0.3em 0 1em; color: #bbb; }
+.elenco-deck {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+  gap: 0.9em;
+}
+.elenco-deck .deck {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0.85em 1em 0.75em;
+  line-height: 1.45;
+  background: #3a3a3a;
+  border: 1px solid #5c5c5c;
+  border-radius: 6px;
+  text-shadow: none;    /* il tema ombreggia tutto il testo: sul piccolo sfoca */
+}
 .deck p { margin: 0; }
-.deck-codice { flex: 0 0 3.6em; font-family: Menlo, Consolas, monospace; font-weight: 700; color: #fc0; }
-.deck-titolo { font-weight: 700; }
-.deck-sottotitolo { font-size: 0.85em; color: #bbb; }
-.deck-sommario { font-size: 0.8em; color: #ccc; margin-top: 0.3em; }
-.deck-formati { margin-top: 0.3em; font-size: 0.75em; text-transform: uppercase; font-weight: 700; }
-.deck-formati a { margin-right: 1.2em; }
-.deck-stato { font-size: 0.7em; color: #999; }
+.deck-codice { font-family: Menlo, Consolas, monospace; font-size: 0.8em; color: #fc0; }
+.deck-versione { float: right; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #aaa; }
+.deck-titolo { margin-top: 0.15em; font-size: 1.15em; font-weight: 700; line-height: 1.25; }
+.deck-titolo a { color: #fff; }
+.deck-titolo a:hover { color: #fc0; }
+.deck-sottotitolo { margin-top: 0.3em; font-size: 0.9em; color: #ddd; }
+.deck-sommario { margin-top: 0.8em; font-size: 0.82em; line-height: 1.4; color: #aaa; }
+.deck-testo { flex: 1 0 auto; padding-bottom: 0.6em; }
+.deck-piede {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding-top: 0.75em;
+  border-top: 1px solid #585858;
+}
+.deck-piede > * { margin: 0; }
+.deck-formati { font-size: 0.9em; font-weight: 700; color: #fc0; }
+.deck-formati a { margin-right: 1em; }
+.deck-formati a:last-child { margin-right: 0; }
+.deck-stato { font-size: 0.8em; color: #999; white-space: nowrap; }
+
+/* Dispense: tile compatta (il sommario sta nella finestra dei dettagli). Nel piede il
+   bottone che scarica il PDF, pagine e peso, e «Dettagli» a destra. */
+.deck-azioni { justify-content: flex-start; align-items: center; flex-wrap: wrap; gap: 0.4em 0.9em; }
+.deck-meta { font-size: 0.8em; color: #999; white-space: nowrap; }
+.deck-azioni .bottone-testo, .deck-azioni .deck-stato { margin-left: auto; }
+.bottone, .bottone-testo {
+  font: inherit;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  text-shadow: none;
+}
+.bottone {
+  display: inline-block;
+  padding: 0.5em 0.85em;
+  color: #222;
+  background: #fc0;
+  border: 1px solid #fc0;
+  border-radius: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.bottone:hover, .bottone:focus-visible { color: #222; background: #ffd83d; border-color: #ffd83d; }
+.bottone-testo {
+  padding: 0.5em 0.2em;
+  color: #ddd;
+  background: none;
+  border: 0;
+  text-decoration: none;
+}
+.bottone-testo:hover, .bottone-testo:focus-visible { color: #fc0; }
+.bottone:focus-visible, .bottone-testo:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+/* La finestra dei dettagli: un <dialog> nativo sopra la pagina scurita. */
+dialog.dettagli {
+  width: min(36em, calc(100vw - 2em));
+  max-height: calc(100vh - 4em);
+  padding: 1.4em 1.6em 1.3em;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ddd;
+  background: #3a3a3a;
+  border: 1px solid #666;
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.5);
+  overflow: auto;
+  text-shadow: none;
+}
+dialog.dettagli::backdrop { background: rgba(0,0,0,.6); }
+dialog.dettagli p { margin: 0; }
+dialog.dettagli h3 { margin: 0.1em 0 0.3em; font-size: 1.4em; color: #fff; }
+.dettagli-sottotitolo { color: #ddd; }
+.dettagli-sommario { margin-top: 1em !important; color: #bbb; }
+.dettagli-dati { margin-top: 1em !important; font-size: 0.85em; color: #999; }
+.dettagli-azioni { display: flex; align-items: center; justify-content: space-between; gap: 1em; margin-top: 1.4em; }
+.dettagli-azioni form { margin: 0; }
+@media (max-width: 568px) {
+  .sezione-materiale { font-size: 15px; }
+  .elenco-deck { grid-template-columns: minmax(0, 1fr); }
+  dialog.dettagli { padding: 1.1em 1.2em; }
+}
 
 /* Esiti degli appelli. */
 .elenco-esiti { list-style: none; padding: 0; }
