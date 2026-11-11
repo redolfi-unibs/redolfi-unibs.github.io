@@ -1,0 +1,8 @@
+import{E as e,S as t,Z as n,_ as r,_t as i,ht as a,v as o,x as s,z as c}from"./modules/shiki-DHt5b-0d.js";import{n as l,t as u}from"./slidev/context-CBFjxUwK.js";import{t as d}from"./slidev/default-CE65vV5o.js";import{t as f}from"./slidev/VClicks-CbEfrbFW.js";var p={__name:`LC-01.portrait.md__slidev_59`,setup(p){let{$slidev:m,$nav:h,$clicksContext:g,$clicks:_,$page:v,$renderContext:y,$frontmatter:b}=l();return g.setup(),(l,p)=>{let m=f;return c(),o(d,i(e(a(u)(a(b),58))),{default:n(()=>[p[1]||=r(`h1`,null,[r(`code`,null,`lez.c`),s(` dal vivo: -1234 nei suoi byte`)],-1),p[2]||=r(`pre`,{class:`pajc-console`},`$ ./bin/lez
+valore       = -1234
+senza segno  = 4294966062  (hex FFFFFB2E)
+byte[0]      = 2E
+byte[1]      = FB
+byte[2]      = FF
+byte[3]      = FF
+sizeof(union int_decoder) = 4`,-1),t(m,null,{default:n(()=>[...p[0]||=[r(`ul`,null,[r(`li`,null,[r(`strong`,null,`complemento a due`),s(`: -1234 è `),r(`code`,null,`FFFFFB2E`),s(`, cioè 2³² − 1234. Letto senza segno, è un numero enorme: il bit alto non cambia, cambia l’interpretazione`)]),r(`li`,null,[r(`strong`,null,`endianness`),s(`: `),r(`code`,null,`byte[0]`),s(` è `),r(`code`,null,`2E`),s(`, il byte `),r(`strong`,null,`meno`),s(` significativo: la macchina è `),r(`em`,null,`little-endian`),s(` (x86 e ARM). In rete i byte viaggiano `),r(`em`,null,`big-endian`),s(`, e Java scrive sempre così: ecco perché `),r(`code`,null,`DataOutputStream`),s(` e il C si capiscono solo dopo una conversione`)])],-1)]]),_:1})]),_:1},16)}}};export{p as default};
